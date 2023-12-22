@@ -471,11 +471,6 @@ def get_filtered_lineup(formation):
 
     return filtered_lineup, positions
 
-import streamlit as st
-from mplsoccer.pitch import VerticalPitch
-import matplotlib.pyplot as plt
-
-# ... (your existing code)
 
 def main():
     st.title("England Euros 2024 line-up")
